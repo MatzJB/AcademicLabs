@@ -1,0 +1,9 @@
+file = igloo_data
+points = 6501
+format = ascii
+interleaving = field
+field = locations, temp
+structure = 3-vector, scalar
+type = float, float
+
+end

@@ -1,0 +1,2 @@
+set path = ( $path /chalmers/sw/unsup/dx/{bin_linux,bin} )
+setenv DXROOT /chalmers/sw/unsup/dx
