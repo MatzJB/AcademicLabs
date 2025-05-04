@@ -190,7 +190,7 @@ If this doesnt work, type "man bind" in the prompt
        telnet--> o <host> <port>
 ```
 
-## About the configuration files
+## Configuration files
 ```
 <syntax>  ::= {<SEP> <rule> <NL>}
 <rule>    ::= <word> <SEP>  <value>
