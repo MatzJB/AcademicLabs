@@ -7,6 +7,9 @@ Some academic labs of mine from courses in Computer science, Mathematics and Phy
 
 ## Scientific Visualization and C++
 
+
+Coming soon...
+
 ## Simulation of Complex Systems
 
 ## Programming 1 (Java and Haskell)
