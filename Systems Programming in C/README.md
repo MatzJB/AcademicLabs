@@ -8,21 +8,27 @@ A simple HTTP server, serving files.
 
 
 Compilation (for the author)
+```
 Linux:		 gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c
 SUN Solaris:	 gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c -Wall -pedantic -lsocket -lnsl
 
 gcc -isystem -g -std=c99  http-server.c lab2_standard.c semaphores.c requestParser.c -Wall -pedantic -lsocket -lnsl
+```
 
  Executable
+ ```
 ./compile (for linux)
+```
 
 If this doesnt work, type "man bind" in the prompt
+```
 	-o http-server (for the suitable name of the executable out file)
-
+```
  Remote testing
+ ```
        http://<computername>.tekno.chalmers.se:5050/
        telnet--> o <host> <port>
-
+```
 
 ## About the configuration files
 ```
