@@ -1,29 +1,34 @@
-# AcademicLabs
-Some academic labs of mine
+# Academic Labs
+Some academic labs of mine from courses in Computer science, Mathematics and Physics.
 
 
 ## Systems Programming in C
-### Labs
-#### File Compression
+
+### File Compression
 Create a command line program that can compress and decompress a file using Huffman coding.
 [https://en.wikipedia.org/wiki/Huffman_coding](url)
 
-#### HTTP server
+### HTTP server
 A simple HTTP server, serving files.
 
 ## High Performance Computing
 
-### Labs
-# Matlab
 
-# Uniprocessor optimization
+### Matlab
 
-# POSIX threads
+### Uniprocessor optimization
 
-# MPI (Fortran)
+### POSIX threads
 
-# OpenMP
+### MPI (Fortran)
+
+### OpenMP
 
 ## Scientific Visualization and C++
 
+### Matlab
+
+### OpenGL
+
+### Paraview (OpenDX?)
 
