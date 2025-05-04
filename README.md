@@ -2,7 +2,7 @@
 Some academic labs of mine
 
 
-## Systems programming in C
+## Systems Programming in C
 ### Labs
 #### File Compression
 Create a command line program that can compress and decompress a file using Huffman coding.
@@ -14,12 +14,16 @@ A simple HTTP server, serving files.
 ## High Performance Computing
 
 ### Labs
-#Matlab
+# Matlab
 
-#Uniprocessor optimization
+# Uniprocessor optimization
 
-#POSIX threads
+# POSIX threads
 
-#MPI (Fortran)
+# MPI (Fortran)
 
-#OpenMP
+# OpenMP
+
+## Scientific Visualization and C++
+
+
