@@ -1,0 +1,54 @@
+#!/bin/sh
+# must have space between "[" "]"
+namn=""`uname`""
+linux="linux"
+solaris="SunOS"
+
+
+echo "***COMPILING LAB2 SYSC***"
+echo
+echo "You ("`whoami`") are using a" `uname` "machine" 
+
+#solaris=`gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c -Wall -pedantic -lsocket -lnsl`
+#linux=`gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c`
+
+
+echo "you know I get calls from home " $namn
+
+if [ -f ./a.out ];then
+    rm a.out
+    echo "erased a.out"    
+fi
+
+
+if [ "$namn"="$linux" ];then
+    echo "Linux"
+    echo
+    gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c
+    
+    
+elif [ "$namn"="$solaris" ]; then
+    echo "Solaris"
+    echo "shutting the system up"
+    xset -b #shut the system up  
+    echo
+#check if the file v_select exist, perhaps
+#    gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c -Wall -pedantic -lsocket -lnsl
+    
+    echo gcc -g -std=c99 http-server.c *.c -Wall -pedantic -lsocket -lnsl
+    
+    mkdir -p ~/.v_select", "v_select -p gcc-3.4.3
+    rehash
+    #gcc -g -std=c99 http-server.c lab2_standard.c semaphores.c requestParser.c -Wall -pedantic -lsocket -lnsl
+else
+    echo "unknown"
+fi
+
+
+# check if ./a.out was created
+if [ -f ./a.out ];then
+    
+    echo "a.out has been created!"    
+else
+    echo "a.out has NOT been created, fix errors first!"    
+fi
