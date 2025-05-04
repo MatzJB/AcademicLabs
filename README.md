@@ -4,7 +4,8 @@ Some academic labs of mine from courses in Computer science, Mathematics and Phy
 ## Systems Programming in C
 
 ## High Performance Computing
-https://github.com/MatzJB/AcademicLabs/tree/main/High%20Performance%20Computing
+[a relative link](High%20Performance%20Computing)
+
 
 ## Scientific Visualization and C++
 
