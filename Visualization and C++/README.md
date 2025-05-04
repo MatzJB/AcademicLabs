@@ -1,6 +1,7 @@
 
 # Matlab, getting started
 
+
 ## Eigenvalues
 
 Arnoldi’s method is an iterative algorithm used to compute a few eigenvalues and corresponding eigenvectors of a large, sparse, and generally non-Hermitian matrix $A$. At each iteration $k$, the method generates $k$ approximate eigenvalues, though typically only a few are accurate. For instance, with a matrix of size $n = 5000$, using $k = 50$ might yield around 5 good approximations. An important by-product of the algorithm is the **residual norm**, which measures the quality of the computed eigenpairs.
@@ -32,7 +33,7 @@ Draw a sequence of 40 adjacent vertical rectangles in a window. Colour the recta
 
 ## Two 3D-problems
 
-## 1
+### Problem 1
 A square matrix A of order n has n² elements, and we can think of it as a point in an n²-dimensional space. The set of all singular matrices of order n forms a surface in this space, and any specific singular matrix is a point on that surface.
 
 For n = 2, where the matrix is real and symmetric, there are only three free parameters. This makes it possible to visualize the surface near the origin (covering all eight octants). We can also mark the matrices [1 0; 0 1] and [1 0; 0 0.01] and the corresponding closest (in || ||₂) singular matrices, which are [1 0; 0 0] in both cases (though not unique in the first). 
@@ -45,7 +46,7 @@ $$
 
 for the $$Ax = b$$ problem. A high condition number (large $$k(A)$$) indicates the matrix is close to the surface, suggesting an ill-conditioned problem. A low condition number (small $$k(A)$$) indicates the matrix is far from the surface, signifying a well-conditioned problem.
 
-### 2
+### Problem 2
 To visualize the set of points where the polynomial \(x^3 + ax^2 + bx + c\) has multiple zeros (of multiplicity two or three), you can plot the discriminant of the cubic equation. The discriminant is zero at the points where the polynomial has multiple roots, and it is also zero at the points with three identical roots. 
 
 - The set of \((a, b, c)\) for which all roots are real corresponds to regions where the discriminant is non-negative. 
@@ -63,9 +64,11 @@ The gray spheres are the stationary charged particles (they should be points, bu
 
 Now some mathematics. Let `r(t) = (x(t), y(t), z(t))` be the position of one moving particle. Assuming Coulomb forces (no gravity, etc.), the differential equation for the motion is given by (dropping `(t)` in `r(t)`):
 
-```
-r'' = c * [ (r - p1) / ||r - p1||^3 + (r - p2) / ||r - p2||^3 + ... + (r - pn) / ||r - pn||^3 ]
-```
+$$
+r'' = c * \left[ \frac{r - p_1}{\|r - p_1\|^3} + \frac{r - p_2}{\|r - p_2\|^3} + \dots + \frac{r - p_n}{\|r - p_n\|^3} \right]
+$$
+
+
 
 where `p1, ..., pn` are the positions of the `n` fixed particles. `c` is a constant having to do with the mass of the particle and the force between particles. `|| ||` denotes the ordinary two-norm (distance). Use `ode45` to solve the system. Test at least the following configuration, defined by the code below:
 
@@ -133,18 +136,26 @@ Curve shapes remain unchanged: Only their positions are affected—no distortion
 
 Usage
 This tool enables quick visual comparison of experimental data (e.g. peak alignment), particularly helpful when overlaying similar measurements. It’s lightweight, user-friendly, and designed for scientific analysis.
+
+![pb2](https://github.com/user-attachments/assets/8a78e286-6a21-4756-809c-267f2ab36936)
  
 # OpenGL
 
 ## Orrery
 
+information to be added soon
 
 ## Village
+
+information to be added soon
  
 # IBM OpenDX
 ![OpenDX](https://github.com/user-attachments/assets/47ae92bc-bcba-48cc-9c0f-689c2c8fb5be)
 
 ## Streamlines
 
+information to be added soon
+
 ## Igloo
- 
+
+information to be added soon
