@@ -1,0 +1,8 @@
+--root
+serverroot /users/Matz/C/lab2/myroot/
+
+--alias
+alias	alias
+
+--port
+port	4009
